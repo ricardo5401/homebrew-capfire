@@ -37,7 +37,7 @@ class Capfire < Formula
     end
     on_arm do
       url "https://github.com/ricardo5401/capfire/releases/download/v#{version}/capfire-v#{version}-darwin-arm64.tar.gz"
-      sha256 "fcd7103f9f2a3cdba99b62add1e58910c8964a76d4aaaa2c147b15b7c581092f"
+      sha256 "2b589c787a77a7fd4e8539d4482a4a222a8d9bbb94f6e42429ed34e392df50f9"
     end
   end
 
