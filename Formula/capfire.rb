@@ -33,7 +33,7 @@ class Capfire < Formula
   on_macos do
     on_intel do
       url "https://github.com/ricardo5401/capfire/releases/download/v#{version}/capfire-v#{version}-darwin-amd64.tar.gz"
-      sha256 "09eacde488af9149fc4c65e19f20fbb9a06986d10fd809e2a04c1c6fc82079dd"
+      sha256 "dc59cc9f81a9a0fa86b99c948fc4a700eb9393357166f9a3b20ba71f4f98a36e"
     end
     on_arm do
       url "https://github.com/ricardo5401/capfire/releases/download/v#{version}/capfire-v#{version}-darwin-arm64.tar.gz"
@@ -44,11 +44,11 @@ class Capfire < Formula
   on_linux do
     on_intel do
       url "https://github.com/ricardo5401/capfire/releases/download/v#{version}/capfire-v#{version}-linux-amd64.tar.gz"
-      sha256 "ba0a5f389add9b963ae53daa151c3ac807896c031b8d95f696ec5e390e9f9ca5"
+      sha256 "a1981f1fb1edcf7f42bffe1a967b06ea69c96f72c500b54f0382fec879003634"
     end
     on_arm do
       url "https://github.com/ricardo5401/capfire/releases/download/v#{version}/capfire-v#{version}-linux-arm64.tar.gz"
-      sha256 "36473f066750faeac4c9b530097f73856b7420a548042ce1cad89380bfb63ba8"
+      sha256 "6554733f15528fd737ddd8fe46eabdfec536cb2cc09c862e511472abf2a7b1e4"
     end
   end
 
