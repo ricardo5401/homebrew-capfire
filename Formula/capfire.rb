@@ -5,28 +5,28 @@
 class Capfire < Formula
   desc "JWT-authenticated deploy orchestrator — developer CLI"
   homepage "https://github.com/ricardo5401/capfire"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/ricardo5401/capfire/releases/download/v0.4.0/capfire-v0.4.0-darwin-amd64.tar.gz"
-      sha256 "e234ae1c27f7f9e4d13ddfbe1034db8287093b3fe6865229228c504a5c4865a7"
+      url "https://github.com/ricardo5401/capfire/releases/download/v0.5.0/capfire-v0.5.0-darwin-amd64.tar.gz"
+      sha256 "468007a8011464ae776e75c3c38f91a716e2bbaf5fdca34da631e1efd7e507fa"
     end
     on_arm do
-      url "https://github.com/ricardo5401/capfire/releases/download/v0.4.0/capfire-v0.4.0-darwin-arm64.tar.gz"
-      sha256 "8671ccb0e5498f270400fc00a2ea815657d6a6d74747334d7942205527b18ceb"
+      url "https://github.com/ricardo5401/capfire/releases/download/v0.5.0/capfire-v0.5.0-darwin-arm64.tar.gz"
+      sha256 "234d09b389b992831bb9be0868872d1c60c90a23d767451777904ca701c17e35"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ricardo5401/capfire/releases/download/v0.4.0/capfire-v0.4.0-linux-amd64.tar.gz"
-      sha256 "f03ceea77024ba22a7e02023aac53adcc97e6e522cd082c124553b1972a330d3"
+      url "https://github.com/ricardo5401/capfire/releases/download/v0.5.0/capfire-v0.5.0-linux-amd64.tar.gz"
+      sha256 "433b02d68368a3f48781103ad7c5e666ca83998374e15d7f4cf1aaf902e9ad50"
     end
     on_arm do
-      url "https://github.com/ricardo5401/capfire/releases/download/v0.4.0/capfire-v0.4.0-linux-arm64.tar.gz"
-      sha256 "1f3edd6407e964f1829752abe74d0be594aa92edc065129368a199aacb11a38d"
+      url "https://github.com/ricardo5401/capfire/releases/download/v0.5.0/capfire-v0.5.0-linux-arm64.tar.gz"
+      sha256 "00fd1caccb3abc56b3807d56b8b91a2da253f3162166988018ff4db4b1f1bd41"
     end
   end
 
